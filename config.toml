@@ -1,9 +1,10 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs = 6
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
+# version = "7.29.52"
+# version = "7.31.51"
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
@@ -33,20 +34,19 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "7.29.52"
 version = "7.31.51"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
